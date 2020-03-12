@@ -12,8 +12,6 @@ import {
   AwsS3Multipart,
 } from 'uppy'
 
-const randomstring = require('randomstring')
-
 const singleFileUpload = (fileInput) => {
   const imagePreview = document.getElementById(fileInput.dataset.previewElement)
   const formGroup    = fileInput.parentNode
